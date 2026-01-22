@@ -1,3 +1,5 @@
+'use client';
+
 import { ForecastItem } from "../types/weather";
 import { getWeatherIconUrl } from "../utils/weather-helpers";
 import { cn } from "@/lib/utils";

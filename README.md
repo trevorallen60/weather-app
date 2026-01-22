@@ -74,7 +74,3 @@ This project is optimized for **Vercel**. To deploy:
 1. Push your code to GitHub.
 2. Import the project into Vercel.
 3. Add the `OPENWEATHER_API_KEY` in the Environment Variables section.
-
----
-
-**Would you like me to add a specific section about how the Error Boundaries or Loading Skeletons work to further impress the reviewer?**

@@ -29,7 +29,10 @@ export default function ForecastCard({ item, index }: ForecastCardProps) {
       )}
     >
       {/* Time Header */}
-      <span className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 cosmic-gradient bg-clip-text group-hover:text-transparent transition-all duration-500">
+      <span
+        suppressHydrationWarning
+        className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 cosmic-gradient bg-clip-text group-hover:text-transparent transition-all duration-500"
+      >
         {time}
       </span>
 

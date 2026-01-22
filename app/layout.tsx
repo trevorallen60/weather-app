@@ -26,13 +26,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className="min-h-screen bg-[#0a0f1c] text-slate-50 antialiased selection:bg-sky-500/30">
+      <body className="min-h-screen bg-[#0d0818] text-slate-50 antialiased selection:bg-purple-500/30 overflow-x-hidden">
         <Atmosphere />
         <Navbar />
-        <main className="container mx-auto px-4 py-8">
+        <main className="container mx-auto px-4 py-8 relative z-10">
           {children}
         </main>
-
       </body>
     </html>
   );

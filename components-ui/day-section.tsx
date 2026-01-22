@@ -11,11 +11,11 @@ export default function DaySection({ group }: { group: DayGroup }) {
 
     return (
         <section className="mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <div className="flex items-center gap-4">
-                <h3 className="text-sm uppercase tracking-[0.2em] font-semibold text-sky-400/80">
+            <div className="flex items-center gap-4 mb-6">
+                <h3 className="text-sm uppercase tracking-[0.25em] font-black cosmic-gradient bg-clip-text text-transparent">
                     {dateLabel}
                 </h3>
-                <div className="h-[1px] flex-1 bg-gradient-to-r from-sky-400/20 to-transparent" />
+                <div className="h-[2px] flex-1 bg-gradient-to-r from-purple-500/40 via-orange-500/30 to-transparent rounded-full" />
             </div>
 
             <div className="w-full px-2">

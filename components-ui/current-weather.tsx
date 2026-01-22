@@ -1,4 +1,4 @@
-import { ForecastItem } from "@/src/types/weather";
+import { ForecastItem } from "@/types/weather";
 import { Wind, Droplets, CloudRain, Navigation2, Thermometer } from "lucide-react";
 import { getWeatherIconUrl } from "../utils/weather-helpers";
 import { cn } from "@/lib/utils";

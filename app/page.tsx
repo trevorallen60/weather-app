@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { CloudSun, Wind, Droplets, ArrowRight } from "lucide-react";
+import { CloudSun, Wind, Droplets } from "lucide-react";
 
 export default function Home() {
   return (

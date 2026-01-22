@@ -1,11 +1,11 @@
-import DaySection from "@/src/components/day-section";
-import { WeatherService } from "@/src/services/weather";
-import { groupForecastByDay } from "@/src/utils/weather-helpers";
+import DaySection from "@/components-ui/day-section";
+import { WeatherService } from "@/services/weather";
+import { groupForecastByDay } from "@/utils/weather-helpers";
 import { notFound } from "next/navigation";
 import { MapPin, CalendarDays } from "lucide-react"; // Sleek iconography
 import { cn } from "@/lib/utils";
 import NotFound from "./error";
-import CurrentWeather from "@/src/components/current-weather";
+import CurrentWeather from "@/components-ui/current-weather";
 
 interface WeatherPageProps {
   params: {
